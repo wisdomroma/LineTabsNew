@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/lineatabs.com.ua/webstat"
+AuthUserFile /var/www/lineatabs/data/etc/1308174.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
